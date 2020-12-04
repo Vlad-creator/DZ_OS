@@ -18,7 +18,7 @@ const int MAX_NAME = 1024;
 int copy (int from, char * adr);
 
 int main(int argc, char ** argv){
-	assert(argc > 2 && argc < 3);
+	assert(argc > 2 && argc < 4);
 
 	errno = 0;
 	int dir1_fd = open (argv[1], O_DIRECTORY);
