@@ -1,0 +1,6 @@
+echo hello
+ls
+mkdir at
+ls
+rmdir at
+ls
